@@ -1,0 +1,192 @@
+body {
+  background-image: url("img\pexels-pixabay-235985.jpg");
+}
+header {
+  display: flex;
+  align-items: left;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: #333;
+}
+
+.navbar {
+  padding-left: 40px;
+  font-size: 30px;
+  position: sticky;
+}
+
+.navbar a {
+  float: left;
+  text-decoration: none;
+  color: #fff;
+  margin: 10px 10px;
+  background-color: darkcyan;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+
+.navbar a:hover {
+  background-color: darkgreen;
+}
+.header {
+  color: #c10909;
+  size: 100px;
+  background-color: #22b14c;
+  width: 250px;
+  margin: auto;
+}
+.container {
+  margin: auto;
+  position: relative;
+  height: 750px;
+  width: 750px;
+}
+
+.one {
+  border: 3px solid black;
+  background-color: white;
+  position: absolute;
+  height: 40%;
+  width: 40%;
+}
+.photo {
+  position: absolute;
+  height: 90%;
+  width: 100%;
+}
+.comment1 {
+  position: absolute;
+  border: none;
+  height: 15%;
+  width: 80%;
+  left: 10%;
+  bottom: 0%;
+}
+
+.two {
+  border: 3px solid black;
+  background-color: white;
+  position: absolute;
+  height: 40%;
+  width: 40%;
+  left: 50%;
+}
+
+.three {
+  border: 3px solid black;
+  background-color: white;
+  position: absolute;
+  height: 40%;
+  width: 40%;
+  top: 50%;
+}
+
+.four {
+  border: 3px solid black;
+  background-color: white;
+  position: absolute;
+  height: 40%;
+  width: 40%;
+  top: 50%;
+  left: 50%;
+}
+
+.like-button {
+  position: absolute;
+  left: 0%;
+}
+.dislike-button {
+  position: absolute;
+  right: 0%;
+}
+
+.button1 {
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button11 {
+  background-color: rgb(63, 63, 254);
+  color: white;
+}
+
+.button11:hover {
+  background-color: rgb(77, 77, 253);
+  color: white;
+}
+
+.button11:focus {
+  background-color: rgb(162, 33, 33);
+  color: white;
+}
+
+.button5 {
+  /* background-color: #3073A8;  */
+  color: black;
+  border: 2px solid #ff4e11;
+}
+
+.button5:hover {
+  background-color: #ff4e11;
+  color: white;
+}
+.button5:focus {
+  background-color: rgb(162, 33, 33);
+  color: white;
+}
+
+.button3 {
+  border: none;
+  padding: 7px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 9px;
+}
+.button4 {
+  border: none;
+  padding: 7px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 9px;
+}
+.button33 {
+  background-color: #22b14c;
+  color: white;
+}
+
+.button33:hover {
+  background-color: #65b97e;
+  color: white;
+}
+.button33:focus {
+  background-color: rgb(162, 33, 33);
+  color: white;
+}
+
+.button44 {
+  background-color: #ea3680;
+  color: white;
+}
+
+.button44:hover {
+  background-color: #eb679e;
+  color: white;
+}
+.button44:focus {
+  background-color: rgb(162, 33, 33);
+  color: white;
+}

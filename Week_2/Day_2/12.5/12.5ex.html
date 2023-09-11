@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+    span[data-descr] {
+      position: relative;
+      text-decoration: underline;
+      color: rgba(140, 0, 255, 0.671);
+      cursor: help;
+    }
+
+    span[data-descr]:hover::after,
+    span[data-descr]:focus::after {
+      content: attr(data-descr);
+      position: absolute;
+      left: 0;
+      top: 24px;
+      min-width: 200px;
+      border: 1px #aaaaaa solid;
+      background-color: #ffffcc;
+      padding: 12px;
+      color: #000000;
+      font-size: 14px;
+      z-index: 1;
+    }
+  </style>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>
+      <span
+        tabindex="0"
+        data-descr="built in 1831 on the footpath leading to Kilburn Abbey"
+      >
+        Abbey Roads Studios </span
+      >it is where the Fab Four recorded almost all of their music between 1962
+      and 1970. In fact, the band loved the studio so much they decided to name
+      their 1969 album after the street where it is
+      <span
+        tabindex="0"
+        data-descr="3 Abbey Road, St John's Wood, City of Westminster, Greater London,"
+      >
+        located.</span
+      >.
+    </p>
+  </body>
+</html>
